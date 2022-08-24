@@ -1,49 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
 </head>
-<style>
-    .top * + * {
-  margin-top: 1.5em;
-}
-
-/* Presentation styles */
-.top p {
-  border: 1px solid var(--color-primary);
-  background: var(--color-light);
-  padding: 1em;
-}
-
-/* Presentational styles */
-.top > * + * {
-  position: relative;
-}
-
-.top > * + *::before {
-  content: "";
-  width: 100%;
-  height: 1.5em;
-  background: #ff807b;
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  outline: 1px solid #9d0600;
-}
-</style>
 
 <body>
-</p>
-</figure>
-<div class="top box">
-  <p>I have no margin because I am the first child.</p>
-  <p>
-    I have <code>margin-top</code> because I am a <strong>next sibling</strong>.
-  </p>
-  <p>I am also a <strong>next sibling</strong>, so also get margin top.</p>
+  <div class="hero-img">
+    <img src="images/hero-image.jpg" alt="">
+  </div>
+  <div class="wrapper">
+
+
+  <header>
+    <a href="#" class="logo">Shoes<span class="logo-end">Brand</span></a>
+    <ul>
+      <nav>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Male</a></li>
+        <li><a href="#">Female</a></li>
+        <li><a href="#">Kids</a></li>
+     </nav>
+     </ul> 
+     <svg class="menu" viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="path-menu" d="M24 32H0V26.6667H24V32ZM48 18.6667H0V13.3333H48V18.6667ZM48 5.33333H24V0H48V5.33333Z" fill="white" />
+        </svg>
+    
+  </header> 
+</div>
+  <section class="hero">
+    <h1>Regain your confidence on the court.</h1>
+
+    <p class="subhead">A shoe built with purpose and to take your game to the next level.</p>
+
+    <svg class="down-arrow" viewBox="0 0 16 132" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path class="path-down-arrow"
+        d="M7.29289 131.707C7.68341 132.098 8.31658 132.098 8.7071 131.707L15.0711 125.343C15.4616 124.953 15.4616 124.319 15.0711 123.929C14.6805 123.538 14.0474 123.538 13.6568 123.929L7.99999 129.586L2.34314 123.929C1.95262 123.538 1.31945 123.538 0.928927 123.929C0.538402 124.319 0.538402 124.953 0.928927 125.343L7.29289 131.707ZM7 -4.37114e-08L6.99999 131L8.99999 131L9 4.37114e-08L7 -4.37114e-08Z"
+        fill="black" />
+    </svg>
+
+  </section>
+
+  <section class="more-info">
+    <div class="feature">
+      <div class="content">
+        <p class="title">Lightweight</p>
+        <p class="title">Upper mesh material provides proper ventilation and reduction in the weight of the shoes.</p>
+      </div>
+      <img src="images/paul-gaudriault-a-QH9MAAVNI-unsplash.jpg" alt="other shoe">
+    </div>
+
+    <div class="feature flip">
+      <div class="content">
+        <p class="title">Flexibility</p>
+        <p class="title">Soft, flexible soles will allow the walker to push off easly with each step.</p>
+      </div>
+      <img src="images/luis-felipe-lins-LG88A2XgIXY-unsplash.jpg" alt="third shoe">
+    </div>
+
+    <div class="feature">
+      <div class="content">
+        <p class="title">Durability</p>
+        <p class="title">Lightweight, woven material is durable and provide structure and support.</p>
+      </div>
+      <img src="images/maksim-larin-NOpsC3nWTzY-unsplash.jpg" alt="fourth shoe">
+
+    </div>
+  </section>
 
 </body>
+
 </html>
